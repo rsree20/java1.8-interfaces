@@ -8,4 +8,9 @@ public interface Calculator {
 	default int multiplication(int a, int b) {
 		return a*b;
 	}
+	
+	public static double devide(int a, int b) {
+		System.out.println("Devision started!!");
+		return a/b;
+	}
 }
